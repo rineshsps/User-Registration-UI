@@ -45,4 +45,5 @@ export class UserService {
         );
      return  this.http.get(this.rootUrl+'Users/GetUser', { headers: reqHeader });
     }
+    
 }
